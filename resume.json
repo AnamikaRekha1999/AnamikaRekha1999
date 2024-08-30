@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "theme": "actual"
+  },
+  "basics": {
+    "name": "Anamika Rekha",
+    "label": "Data Scientist",
+    "image": "https://avatars.githubusercontent.com/u/137219152?v=4",
+    "summary": "I am a Data Scientist with a solid foundation in data analysis, machine learning, and software development. My expertise spans across Python, SQL, and various data visualization tools like Power BI and Tableau. I have hands-on experience in creating data pipelines, conducting data analysis, and building machine learning models. I am passionate about turning complex data into actionable insights and am continuously learning new tools and technologies to stay ahead in the field.",
+    "summarytr": "Veri analizi, makine öğrenimi ve yazılım geliştirme konusunda sağlam bir temele sahip bir Veri Bilimcisiyim. Uzmanlığım Python, SQL ve Power BI ve Tableau gibi çeşitli veri görselleştirme araçlarını kapsar. Veri hatları oluşturma, veri analizi yapma ve makine öğrenimi modelleri oluşturma konusunda uygulamalı deneyimim var. Karmaşık verileri eyleme dönüştürülebilir içgörülere dönüştürme konusunda tutkuluyum ve alanda önde kalmak için sürekli olarak yeni araçlar ve teknolojiler öğreniyorum.",
+    "website": "#",
+    "email": "anamika.rekhar@gmail.com",
+    "location": {
+      "city": "Cheltenham",
+      "countryCode": "US"
+    },
+    "profiles": {
+      "twitter": {
+        "username": "",
+        "url": "https://twitter.com/"
+      },
+      "github": {
+        "url": "github.com//AnamikaRekha1999",
+        "username": "AnamikaRekha1999"
+      },
+      "linkedin": {
+        "username": "anamikarekha",
+        "url": "https://www.linkedin.com/in/anamikarekha"
+      }
+    }
+  },
+
+  "repository": [
+    {
+      "name": "Movie Recommendation System",
+      "explanation": "Led data cleaning and built collaborative filtering models for predicting user movie ratings.",
+      "tag": ["Python", "Pandas", "SciPy"],
+      "bestLang": "Python",
+      "date": "2024.03.28",
+      "link": "https://github.com/AnamikaRekha1999/movie-recommendation-system",
+      "viewLink": ""
+    },
+    {
+      "name": "UNICEF Data Warehouse Project",
+      "explanation": "Managed ETL pipelines and built a robust Star schema for efficient data modeling.",
+      "tag": ["SQL", "Data Warehousing", "ETL"],
+      "bestLang": "SQL",
+      "date": "2024.03.24",
+      "link": "https://github.com/AnamikaRekha1999/unicef-data-warehouse",
+      "viewLink": ""
+    },
+    {
+      "name": "Financial Stock Data Analysis Project",
+      "explanation": "Performed sentiment analysis and developed an LSTM model to predict stock prices.",
+      "tag": ["Python", "Keras", "TensorFlow"],
+      "bestLang": "Python",
+      "date": "2023.03.28",
+      "link": "https://github.com/AnamikaRekha1999/financial-stock-analysis",
+      "viewLink": ""
+    }
+  ],
+
+  "education": [
+    {
+      "endDate": "2024",
+      "startDate": "2022",
+      "area": "Data Science",
+      "studyType": "Master of Science",
+      "institution": "Drexel University, Philadelphia, PA",
+      "gpa": "3.93"
+    },
+    {
+      "endDate": "2021",
+      "startDate": "2017",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor of Technology (Honors)",
+      "institution": "APJ Abdul Kalam Technological University, Kerala, India",
+      "gpa": "3.78"
+    }
+  ],
+  "references": [
+    {
+      "reference": "",
+      "name": ""
+    },
+    {
+      "reference": "",
+      "name": ""
+    },
+    {
+      "reference": "",
+      "name": ""
+    },
+    {
+      "reference": "",
+      "name": ""
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Apache Spark",
+        "Google Cloud Platform",
+        "Databricks",
+        "Machine Learning"
+      ],
+      "level": "Professional",
+      "name": "Data Science",
+      "situation": "Technologies I Use"
+    },
+    {
+      "keywords": [
+        "AWS",
+        "Matplotlib",
+        "PyTorch",
+        "Salesforce",
+        "CRM Analytics",
+        "Adobe Experience Platform",
+        "Google Analytics"
+      ],
+      "level": "Intermediate",
+      "name": "Data Science",
+      "situation": "Tools & Technologies"
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "awarder": ""
+    }
+  ],
+  "work": [
+    {
+      "summary": "Karpos is a ‘generalist’ consulting practice with emphasis in the areas of: vision, strategy, leadership, marketing, channel efficiency, operational excellence, change, innovation, succession.",
+      "website": "https://karposconsultingllc.com/",
+      "name": "Karpo Consulting LLC",
+      "location": "Philadelphia, PA",
+      "position": "Data Science Co-op Intern",
+      "startDate": "Sep 2023",
+      "highlights": ["", "", "", ""]
+    }
+  ],
+
+  "interests": [
+    "Drawing",
+    "Algorithm",
+    "Sudoku",
+    "Open Source",
+    "Nonogram",
+    "Risk game"
+  ]
+}
