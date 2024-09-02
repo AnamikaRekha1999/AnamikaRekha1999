@@ -152,7 +152,6 @@
       "startDate": "Aug 2021",
       "highlights": ["", "", "", ""]
     }
-
   ],
 
   "interests": [
@@ -162,5 +161,19 @@
     "Open Source",
     "Nonogram",
     "Risk game"
+  ],
+  "Relevant_Coursework": [
+    "Data Structures/ Algorithms I",
+    "Data Structures and Algorithms II",
+    "Data Acquisition and Pre-Processing",
+    "Introduction to Data Analytics",
+    "Information Visualization",
+    "Applied Cloud Computing",
+    "Healthcare Informatics",
+    "Database Management Systems",
+    "Advanced Database Management",
+    "Quantitative Foundations of Data Science",
+    "Recommender Systems in Data Science",
+    "Applied Machine Learning for Data Science"
   ]
 }

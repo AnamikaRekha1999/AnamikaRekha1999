@@ -52,6 +52,9 @@ body {
   .c7 {
     grid-column: 1 / span 12;
   }
+  .c8 {
+    grid-column: 1 / span 12;
+  }
 
 
     .c1 a {
@@ -197,6 +200,18 @@ body {
     
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
   }
+
+  .RelevantCourseworkHtml span{
+    margin:4px;
+    padding:6px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
+    
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  }
+
+
   
   .repositoryHtml span{
     margin:4px;
