@@ -138,10 +138,20 @@ const data = fetch(resume)
       worksHtml.innerHTML += `<hr>`;
       worksHtml.innerHTML += `<h4>${list.position} - ${list.name}</h4>`;
 
-      worksHtml.innerHTML += `<span class="worksSpan">${list.startDate} - ${list.endDate} - ${list.location}</span>`;
-
-      worksHtml.innerHTML += `<p>${list.summary}</p>`;
-      worksHtml.innerHTML += `<p>${list.highlights}</p>`;
+      worksHtml.innerHTML += `<span class="worksSpan">${list.startDate} - ${endDate} - ${list.location}</span>`;
+  
+  worksHtml.innerHTML += `<p>${list.summary}</p>`;
+  
+  // Iterate over the highlights array and display each item
+  if (list.highlights && list.highlights.length > 0) {
+    worksHtml.innerHTML += `<ul>`;
+    for (let j in list.highlights) {
+      worksHtml.innerHTML += `<li>${list.highlights[j]}</li>`;
+    }
+    worksHtml.innerHTML += `</ul>`;
+  } else {
+    worksHtml.innerHTML += `<p>No highlights available</p>`;
+  }
     }
 
     //educationHtml studyType
