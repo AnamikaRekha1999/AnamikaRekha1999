@@ -157,12 +157,22 @@ const data = fetch(resume)
     //educationHtml studyType
 
     let education = resume.education;
-    for (let i in education) {
-      let list = education[i];
+for (let i in education) {
+  let list = education[i];
 
-    educationHtml.innerHTML += `<h3>${list.institution}</h3>`;
-    educationHtml.innerHTML += `<h4>${list.area} (${list.studyType}) </h4>`;
-    educationHtml.innerHTML += `<p class="worksSpan">(${list.startDate}-${list.endDate})</p>`;
+  // Institution name
+  educationHtml.innerHTML += `<h3>${list.institution}</h3>`;
+
+  // Study area and degree type (studyType)
+  educationHtml.innerHTML += `<h4>${list.area} (${list.studyType})</h4>`;
+
+  // Date range, with a fallback for ongoing education (no endDate)
+  let endDate = list.endDate ? list.endDate : 'Present';
+  educationHtml.innerHTML += `<p class="worksSpan">(${list.startDate} - ${endDate})</p>`;
+
+  // GPA
+  educationHtml.innerHTML += `<p>GPA: ${list.gpa}</p>`;
+}
 
     //interestsHtml
 
