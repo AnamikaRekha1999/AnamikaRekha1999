@@ -81,7 +81,7 @@ const data = fetch(resume)
     document.getElementById("email").innerHTML = user.email;
     document.getElementById("email").href = "mailto:" + user.email;
 
-    document.getElementById("twitterHtml").href = user.profiles.twitter.url;
+    //document.getElementById("twitterHtml").href = user.profiles.twitter.url;
     document.getElementById("githubHtml").href = user.profiles.github.url;
     document.getElementById("linkedinHtml").href = user.profiles.linkedin.url;
 
@@ -89,8 +89,8 @@ const data = fetch(resume)
       "in/" + user.profiles.linkedin.username;
     document.getElementById("githubHtml").innerHTML =
       "" + user.profiles.github.username;
-    document.getElementById("twitterHtml").innerHTML =
-      "@" + user.profiles.twitter.username;
+    //document.getElementById("twitterHtml").innerHTML =
+      //"@" + user.profiles.twitter.username;
 
     document.getElementById("summary").innerHTML = user.summary;
 
