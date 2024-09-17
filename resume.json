@@ -135,22 +135,32 @@
   ],
   "work": [
     {
-      "summary": "Karpos is a ‘generalist’ consulting practice with emphasis in the areas of: vision, strategy, leadership, marketing, channel efficiency, operational excellence, change, innovation, succession.",
-      "website": "https://karposconsultingllc.com/",
+      "summary": "Karpo Consulting LLC is a consulting firm specializing in data analysis, operational efficiency, and business strategy.",
       "name": "Karpo Consulting LLC",
       "location": "Philadelphia, PA",
       "position": "Data Science Co-op Intern",
       "startDate": "Sep 2023",
-      "highlights": ["", "", "", ""]
+      "endDate": "Jan 2024",
+      "highlights": [
+        "Designed and developed Power BI dashboards for maintenance work types, generator performance, and location analysis.",
+        "Analyzed equipment categories, identifying high-priority tasks in HVAC systems for preventive maintenance.",
+        "Performed fuel consumption analysis to identify the most efficient generators across multiple locations.",
+        "Monitored UPS performance to optimize power management by identifying peak usage periods and abnormal consumption patterns."
+      ]
     },
     {
-      "summary": "Karpos is a ‘generalist’ consulting practice with emphasis in the areas of: vision, strategy, leadership, marketing, channel efficiency, operational excellence, change, innovation, succession.",
-      "website": "https://karposconsultingllc.com/",
+      "summary": "Cognizant Technology Solutions is a global technology and professional services company that helps clients build and modernize technology systems.",
       "name": "Cognizant Technology Solutions",
       "location": "Banglore, India",
       "position": "Programmer Analyst",
       "startDate": "Aug 2021",
-      "highlights": ["", "", "", ""]
+      "endDate": "Sep 2022",
+      "highlights": [
+        "Developed data pipelines for ETL processes, ensuring data integrity using SOQL and SQL.",
+        "Led data governance initiatives for data minimization and designed dataflows and recipes for RDMS.",
+        "Analyzed production issues, reviewed test scripts, and provided bug fixes to ensure smooth project deployment.",
+        "Participated in CR processes, managed Azure boards, and collaborated with stakeholders during sprints, demos, and unit tests."
+      ]
     }
   ],
 
