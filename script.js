@@ -138,7 +138,7 @@ const data = fetch(resume)
       worksHtml.innerHTML += `<hr>`;
       worksHtml.innerHTML += `<h4>${list.position} - ${list.name}</h4>`;
 
-      worksHtml.innerHTML += `<span class="worksSpan">${list.startDate} - ${endDate} - ${list.location}</span>`;
+      worksHtml.innerHTML += `<span class="worksSpan">${list.startDate} - ${list.endDate} - ${list.location}</span>`;
   
   worksHtml.innerHTML += `<p>${list.summary}</p>`;
   
