@@ -135,6 +135,23 @@
   ],
   "work": [
     {
+      "summary": "Pinnacle Healthcare Staffing provides specialized services in healthcare staffing and data analysis.",
+      "name": "Pinnacle Healthcare Staffing",
+      "location": "Philadelphia, PA",
+      "position": "Data Analyst Intern",
+      "startDate": "Sep 2024",
+      "endDate": "Prsent",  
+      "highlights": [
+        "Utilized data collection and cleansing techniques to prepare datasets for analysis",
+        "Performed data analysis and interpretation to support business decisions",
+        "Applied statistical methods and modeling techniques to generate insights from healthcare data",
+        "Created data visualizations to communicate key findings to stakeholders",
+        "Managed and queried databases to extract relevant information for reports",
+        "Assisted in research methodologies and report writing to support healthcare staffing strategies"
+      ]
+    }
+    ,
+    {
       "summary": "Karpo Consulting LLC is a consulting firm specializing in data analysis, operational efficiency, and business strategy.",
       "name": "Karpo Consulting LLC",
       "location": "Philadelphia, PA",
@@ -142,10 +159,10 @@
       "startDate": "Sep 2023",
       "endDate": "Jan 2024",
       "highlights": [
-        "Designed and developed Power BI dashboards for maintenance work types, generator performance, and location analysis.",
-        "Analyzed equipment categories, identifying high-priority tasks in HVAC systems for preventive maintenance.",
-        "Performed fuel consumption analysis to identify the most efficient generators across multiple locations.",
-        "Monitored UPS performance to optimize power management by identifying peak usage periods and abnormal consumption patterns."
+        "Designed and developed Power BI dashboards for maintenance work types, generator performance, and location analysis",
+        "Analyzed equipment categories, identifying high-priority tasks in HVAC systems for preventive maintenance",
+        "Performed fuel consumption analysis to identify the most efficient generators across multiple locations",
+        "Monitored UPS performance to optimize power management by identifying peak usage periods and abnormal consumption patterns"
       ]
     },
     {
@@ -156,10 +173,10 @@
       "startDate": "Aug 2021",
       "endDate": "Sep 2022",
       "highlights": [
-        "Developed data pipelines for ETL processes, ensuring data integrity using SOQL and SQL.",
-        "Led data governance initiatives for data minimization and designed dataflows and recipes for RDMS.",
-        "Analyzed production issues, reviewed test scripts, and provided bug fixes to ensure smooth project deployment.",
-        "Participated in CR processes, managed Azure boards, and collaborated with stakeholders during sprints, demos, and unit tests."
+        "Developed data pipelines for ETL processes, ensuring data integrity using SOQL and SQL",
+        "Led data governance initiatives for data minimization and designed dataflows and recipes for RDMS",
+        "Analyzed production issues, reviewed test scripts, and provided bug fixes to ensure smooth project deployment",
+        "Participated in CR processes, managed Azure boards, and collaborated with stakeholders during sprints, demos, and unit tests"
       ]
     }
   ],
