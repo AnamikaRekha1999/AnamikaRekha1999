@@ -157,10 +157,12 @@ const data = fetch(resume)
     //educationHtml studyType
 
     let education = resume.education;
+    for (let i in education) {
+      let list = education[i];
 
-    educationHtml.innerHTML += `<h3>${education[0].institution}</h3>`;
-    educationHtml.innerHTML += `<h4>${education[0].area} (${education[0].studyType}) </h4>`;
-    educationHtml.innerHTML += `<p class="worksSpan">(${education[0].startDate}-${education[0].endDate})</p>`;
+    educationHtml.innerHTML += `<h3>${list.institution}</h3>`;
+    educationHtml.innerHTML += `<h4>${list.area} (${list.studyType}) </h4>`;
+    educationHtml.innerHTML += `<p class="worksSpan">(${list.startDate}-${list.endDate})</p>`;
 
     //interestsHtml
 
