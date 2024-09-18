@@ -121,8 +121,8 @@ const data = fetch(resume)
       ProjectExperienceHtml.innerHTML += `<div class="qr-code"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${repository[i].link}" alt="qr-code"></div>`;
 
       ProjectExperienceHtml.innerHTML += `<h3 style="display:inline-block;">${repository[i].name}</h3>`;
-      ProjectExperienceHtml.innerHTML += `<a target="_blank" href="${repository[i].link}"><span class="link" style="display:inline-block;">Go Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>`;
-      ProjectExperienceHtml.innerHTML += `<a target="_blank" href="${repository[i].viewLink}"><span class="link" style="display:inline-block;">View <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>`;
+      //ProjectExperienceHtml.innerHTML += `<a target="_blank" href="${repository[i].link}"><span class="link" style="display:inline-block;">Go Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>`;
+      //ProjectExperienceHtml.innerHTML += `<a target="_blank" href="${repository[i].viewLink}"><span class="link" style="display:inline-block;">View <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>`;
       ProjectExperienceHtml.innerHTML += `<p style=" font-size: 0.7em; font-style: italic;">${repository[i].bestLang}</p>`;
 
       ProjectExperienceHtml.innerHTML += `<p>${repository[i].explanation}</p>`;
