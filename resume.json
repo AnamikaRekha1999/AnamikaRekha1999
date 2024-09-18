@@ -101,23 +101,28 @@
       "keywords": [
         "Python",
         "SQL",
+        "C",
+        "R",
+        "HTML",
+        "CSS"
+        
+      ],
+      "level": "Professional",
+      "name": "Data Science",
+      "situation": "Programming Languages"
+    },
+    {
+      "keywords": [
         "Tableau",
+        "Salesforce",
         "Power BI",
         "Apache Spark",
         "Google Cloud Platform",
         "Databricks",
-        "Machine Learning"
-      ],
-      "level": "Professional",
-      "name": "Data Science",
-      "situation": "Technologies I Use"
-    },
-    {
-      "keywords": [
+        "Machine Learning",
         "AWS",
         "Matplotlib",
         "PyTorch",
-        "Salesforce",
         "CRM Analytics",
         "Adobe Experience Platform",
         "Google Analytics"
@@ -125,6 +130,31 @@
       "level": "Intermediate",
       "name": "Data Science",
       "situation": "Tools & Technologies"
+    },
+    {
+      "keywords": [
+        "Tableau",
+        "Machine Learning Concepts"
+        
+      ],
+      "level": "Intermediate",
+      "name": "Data Science",
+      "situation": "Methodologies"
+    },
+    {
+      "keywords": [
+        "Git",
+        "Visual Studio Code",
+        "Jupyter Notebook",
+        "MATLAB",
+        "Linux",
+        "Windows"
+
+        
+      ],
+      "level": "Intermediate",
+      "name": "Data Science",
+      "situation": "Environment/OS"
     }
   ],
   "awards": [
