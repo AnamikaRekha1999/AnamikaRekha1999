@@ -30,7 +30,7 @@
     }
   },
 
-  "Project Experience": [
+  "ProjectExperience": [
     {
       "name": "Movie Recommendation System",
       "explanation": "Led a comprehensive data cleaning process on datasets from MovieLens, IMDB, Rotten Tomatoes, and Wikipedia, processing over 20 million records to handle missing values, eliminate duplicates, and standardize formats. Conducted exploratory data analysis on over 100 movie attributes and user preferences to identify key patterns for algorithm development. Built and optimized collaborative filtering models including Singular Value Decomposition (SVD), SVD++, and Non-Negative Matrix Factorization (NMF) for predicting user ratings. Evaluated model performance using metrics like Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE). Developed a Content-Based recommendation system using Cosine Similarity, Jaccard Similarity, and k-nearest neighbors (KNN) for personalized recommendations.",

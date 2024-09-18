@@ -111,7 +111,7 @@ const data = fetch(resume)
     }
 
     //ProjectExperienceHtml
-    let repository = resume.repository;
+    let repository = resume.ProjectExperience;
 
     //<p style="display=inline-block; font-size: 0.7em; font-style: italic;">${repository[i].bestLang}</p>
     //
