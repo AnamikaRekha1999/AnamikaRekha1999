@@ -33,32 +33,69 @@
   "repository": [
     {
       "name": "Movie Recommendation System",
-      "explanation": "Led data cleaning and built collaborative filtering models for predicting user movie ratings.",
-      "tag": ["Python", "Pandas", "SciPy"],
+      "explanation": "Led a comprehensive data cleaning process on datasets from MovieLens, IMDB, Rotten Tomatoes, and Wikipedia, processing over 20 million records to handle missing values, eliminate duplicates, and standardize formats. Conducted exploratory data analysis on over 100 movie attributes and user preferences to identify key patterns for algorithm development. Built and optimized collaborative filtering models including Singular Value Decomposition (SVD), SVD++, and Non-Negative Matrix Factorization (NMF) for predicting user ratings. Evaluated model performance using metrics like Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE). Developed a Content-Based recommendation system using Cosine Similarity, Jaccard Similarity, and k-nearest neighbors (KNN) for personalized recommendations.",
+      "tag": ["Python", "Pandas", "SciPy", "Machine Learning"],
       "bestLang": "Python",
-      "date": "2024.03.28",
+      "date": "Sep 2023 – Mar 2024",
       "link": "https://github.com/AnamikaRekha1999/movie-recommendation-system",
       "viewLink": ""
     },
     {
       "name": "UNICEF Data Warehouse Project",
-      "explanation": "Managed ETL pipelines and built a robust Star schema for efficient data modeling.",
+      "explanation": "Managed ETL pipelines for large-scale data processing in the UNICEF Data Warehouse, optimizing performance with SQL DDL/DML to load data into the POPULATION fact table based on specified parameters. Designed a robust Star schema with fact tables and dimension tables for UNICEF’s indicators, ensuring efficient data modeling and querying. Conducted comprehensive testing of the ETL workflow, including handling overlapping periods, preventing record duplication, and verifying error handling for invalid inputs.",
       "tag": ["SQL", "Data Warehousing", "ETL"],
       "bestLang": "SQL",
-      "date": "2024.03.24",
+      "date": "Jan 2024 – Mar 2024",
       "link": "https://github.com/AnamikaRekha1999/unicef-data-warehouse",
       "viewLink": ""
     },
     {
-      "name": "Financial Stock Data Analysis Project",
-      "explanation": "Performed sentiment analysis and developed an LSTM model to predict stock prices.",
-      "tag": ["Python", "Keras", "TensorFlow"],
+      "name": "Consumer Complaint Analysis",
+      "explanation": "Applied natural language processing techniques to preprocess and clean a diverse dataset of consumer complaints. Implemented various machine learning algorithms, including Logistic Regression, Random Forest Classifier, Linear SVM Classifier, Multinomial Naive Bayes Classifier, K-Nearest Neighbors Classifier, Ensemble Classifier (Voting Classifier), and SGD Classifier to classify complaints and evaluate model performance in Python.",
+      "tag": ["Python", "NLP", "Machine Learning"],
       "bestLang": "Python",
-      "date": "2023.03.28",
+      "date": "Apr 2023 – Jun 2023",
+      "link": "https://github.com/AnamikaRekha1999/consumer-complaint-analysis",
+      "viewLink": ""
+    },
+    {
+      "name": "Financial Stock Data Analysis",
+      "explanation": "Performed sentiment analysis on news related to companies to predict stock prices. Developed a Long Short-Term Memory (LSTM) model using Keras and TensorFlow to forecast stock prices based on news sentiment. Evaluated the model’s performance and made iterative improvements to enhance accuracy.",
+      "tag": ["Python", "Keras", "TensorFlow", "Sentiment Analysis"],
+      "bestLang": "Python",
+      "date": "Jan 2023 – Mar 2023",
       "link": "https://github.com/AnamikaRekha1999/financial-stock-analysis",
       "viewLink": ""
+    },
+    {
+      "name": "Synthetic Clinical Patient SQL Project",
+      "explanation": "Developed a data model for a Synthetic Clinical Patient database using SQL Vertabelo. Wrote SQL queries to extract and analyze data related to allergies, imaging studies, immunizations, medications, and procedures. Conducted data cleaning and transformation to prepare data for analysis and created visualizations using Tableau to present findings and insights. Improved database performance through query optimization and indexing strategies.",
+      "tag": ["SQL", "Tableau", "Data Modeling"],
+      "bestLang": "SQL",
+      "date": "Jan 2023 – Mar 2023",
+      "link": "https://github.com/AnamikaRekha1999/synthetic-clinical-patient-sql",
+      "viewLink": ""
+    },
+    {
+      "name": "Spotify Cross-Border Hit Analysis",
+      "explanation": "Utilized the Spotify API to gather the top fifty songs from the ten top streaming countries to analyze factors contributing to cross-border hits. Conducted a correlation matrix analysis to identify non-correlated variables and developed a Naive Bayes model in R using discrete quartile categories to predict song success.",
+      "tag": ["R", "Spotify API", "Data Analysis"],
+      "bestLang": "R",
+      "date": "Sep 2022 – Dec 2022",
+      "link": "https://github.com/AnamikaRekha1999/spotify-cross-border-hit-analysis",
+      "viewLink": ""
+    },
+    {
+      "name": "Suicide Data Acquisition and Analysis",
+      "explanation": "Conducted web scraping in Python to acquire a comprehensive suicide dataset from various websites, adding valuable data points. Preprocessed and manipulated the data, merging it with other datasets to ensure accuracy and consistency. Provided actionable insights for suicide prevention agencies to enhance outreach efforts.",
+      "tag": ["Python", "Web Scraping", "Data Analysis"],
+      "bestLang": "Python",
+      "date": "Sep 2022 – Dec 2022",
+      "link": "https://github.com/AnamikaRekha1999/suicide-data-analysis",
+      "viewLink": ""
     }
-  ],
+],
+
 
   "education": [
     {
