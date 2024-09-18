@@ -61,7 +61,7 @@ let skillsHtml = document.getElementsByClassName("skillsHtml")[0];
 let worksHtml = document.getElementsByClassName("worksHtml")[0];
 let educationHtml = document.getElementsByClassName("educationHtml")[0];
 let interestsHtml = document.getElementsByClassName("interestsHtml")[0];
-let repositoryHtml = document.getElementsByClassName("repositoryHtml")[0];
+let ProjectExperienceHtml = document.getElementsByClassName("ProjectExperienceHtml")[0];
 
 let resume = "resume.json";
 const data = fetch(resume)
@@ -110,24 +110,24 @@ const data = fetch(resume)
       }
     }
 
-    //repositoryHtml
+    //ProjectExperienceHtml
     let repository = resume.repository;
 
     //<p style="display=inline-block; font-size: 0.7em; font-style: italic;">${repository[i].bestLang}</p>
     //
 
     for (let i in repository) {
-      repositoryHtml.innerHTML += `<hr>`;
-      repositoryHtml.innerHTML += `<div class="qr-code"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${repository[i].link}" alt="qr-code"></div>`;
+      ProjectExperienceHtml.innerHTML += `<hr>`;
+      ProjectExperienceHtml.innerHTML += `<div class="qr-code"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${repository[i].link}" alt="qr-code"></div>`;
 
-      repositoryHtml.innerHTML += `<h3 style="display:inline-block;">${repository[i].name}</h3>`;
-      repositoryHtml.innerHTML += `<a target="_blank" href="${repository[i].link}"><span class="link" style="display:inline-block;">Go Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>`;
-      repositoryHtml.innerHTML += `<a target="_blank" href="${repository[i].viewLink}"><span class="link" style="display:inline-block;">View <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>`;
-      repositoryHtml.innerHTML += `<p style=" font-size: 0.7em; font-style: italic;">${repository[i].bestLang}</p>`;
+      ProjectExperienceHtml.innerHTML += `<h3 style="display:inline-block;">${repository[i].name}</h3>`;
+      ProjectExperienceHtml.innerHTML += `<a target="_blank" href="${repository[i].link}"><span class="link" style="display:inline-block;">Go Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>`;
+      ProjectExperienceHtml.innerHTML += `<a target="_blank" href="${repository[i].viewLink}"><span class="link" style="display:inline-block;">View <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>`;
+      ProjectExperienceHtml.innerHTML += `<p style=" font-size: 0.7em; font-style: italic;">${repository[i].bestLang}</p>`;
 
-      repositoryHtml.innerHTML += `<p>${repository[i].explanation}</p>`;
+      ProjectExperienceHtml.innerHTML += `<p>${repository[i].explanation}</p>`;
       for (let j in repository[i].tag) {
-        repositoryHtml.innerHTML += `<span style="display:inline-block;">${repository[i].tag[j]}</span>`;
+        ProjectExperienceHtml.innerHTML += `<span style="display:inline-block;">${repository[i].tag[j]}</span>`;
       }
     }
 
