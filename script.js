@@ -118,7 +118,7 @@ const data = fetch(resume)
 
     for (let i in repository) {
       ProjectExperienceHtml.innerHTML += `<hr>`;
-      ProjectExperienceHtml.innerHTML += `<div class="qr-code"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${repository[i].link}" alt="qr-code"></div>`;
+      //ProjectExperienceHtml.innerHTML += `<div class="qr-code"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${repository[i].link}" alt="qr-code"></div>`;
 
       ProjectExperienceHtml.innerHTML += `<h3 style="display:inline-block;">${repository[i].name}</h3>`;
       //ProjectExperienceHtml.innerHTML += `<a target="_blank" href="${repository[i].link}"><span class="link" style="display:inline-block;">Go Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>`;
